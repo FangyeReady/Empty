@@ -8,3 +8,4 @@ test alias ac
 
 dev~
 
+dev origin~
