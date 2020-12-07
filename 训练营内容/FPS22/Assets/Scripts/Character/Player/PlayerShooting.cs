@@ -25,13 +25,15 @@ public class PlayerShooting : MonoBehaviour
     //计时器
     float timer = 0f;
 
-  
+    //游戏界面
+    GameView gameView;
 
 
 
     private void Start()
     {
-      
+        //赋值
+        gameView = GameObject.FindObjectOfType<GameView>();
     }
 
 
@@ -122,7 +124,19 @@ public class PlayerShooting : MonoBehaviour
             EnemyHealth enemy = hitInfo.transform.GetComponent<EnemyHealth>();
             if (enemy != null)
             {
-                enemy.OnHurt(Attack, hitInfo.point);
+
+                //得到分数       
+                int score = gameView.GetScore();
+                float addAtk = Mathf.Floor(score / 500f);
+                float curAtk = Attack + addAtk;
+                if (curAtk > 5)
+                {
+                    curAtk = 5;
+                }
+
+                //Debug.Log("攻击力:" + curAtk);
+                
+                enemy.OnHurt(curAtk, hitInfo.point);
             }
         }
         else

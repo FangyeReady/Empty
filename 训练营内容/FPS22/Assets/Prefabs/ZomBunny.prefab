@@ -213,12 +213,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bafcba6536e333142bd87ae0166163b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 20
+  Health: 30
   sinkingSpeed: 3
   hitParticle: {fileID: 19800000}
   deathParticle: {fileID: 19800002}
   audioSource: {fileID: 21580181539343152}
   deathAudio: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
+  score: 75
 --- !u!114 &1589765132162753220
 MonoBehaviour:
   m_ObjectHideFlags: 0

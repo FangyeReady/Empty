@@ -16,14 +16,17 @@ public class EnemyHealth : MonoBehaviour
     public AudioSource audioSource;
     //死亡音频
     public AudioClip deathAudio;
+    //怪物分数
+    public int score = 0;
 
-
+    //游戏界面
+    GameView gameView;
     //动画控制器
     Animator ani;
-
     //碰撞体
     CapsuleCollider collider;
    
+
 
     //死亡状态
     bool isDeath = false;
@@ -35,6 +38,8 @@ public class EnemyHealth : MonoBehaviour
     {
         ani = GetComponent<Animator>();
         collider = GetComponent<CapsuleCollider>();
+
+        gameView = GameObject.FindObjectOfType<GameView>();
     }
     private void Update()
     {
@@ -98,9 +103,11 @@ public class EnemyHealth : MonoBehaviour
         //修改Layer
         gameObject.layer = LayerMask.GetMask("Default");
 
-
         //销毁自身
         Destroy(this.gameObject, 5f);
+
+        //添加分数
+        gameView.UpdateScoreUI(score);
     }
 
     /// <summary>

@@ -136,6 +136,7 @@ MonoBehaviour:
   deathParticle: {fileID: 19800000}
   audioSource: {fileID: 2304648849947577168}
   deathAudio: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
+  score: 450
 --- !u!114 &8664013685834169770
 MonoBehaviour:
   m_ObjectHideFlags: 0

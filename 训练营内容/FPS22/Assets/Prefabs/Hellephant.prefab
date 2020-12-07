@@ -9916,12 +9916,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bafcba6536e333142bd87ae0166163b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 10
+  Health: 50
   sinkingSpeed: 1
   hitParticle: {fileID: 19897060}
   deathParticle: {fileID: 19869728}
   audioSource: {fileID: 1314122183440141584}
   deathAudio: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
+  score: 100
 --- !u!114 &4355124654225775154
 MonoBehaviour:
   m_ObjectHideFlags: 0

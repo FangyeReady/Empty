@@ -56,7 +56,7 @@ public class EnemyAttack : MonoBehaviour
     //进入接触
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("进入接触   " + other.gameObject.name);
+        //Debug.Log("进入接触   " + other.gameObject.name);
         if (other.CompareTag("Player"))// other.gameObject.tag == "Player"
         {
             canAttack = true;
