@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\bin\Debug\ArrayAndSort.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\bin\Debug\ArrayAndSort.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\bin\Debug\ArrayAndSort.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\obj\Debug\ArrayAndSort.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\obj\Debug\ArrayAndSort.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\obj\Debug\ArrayAndSort.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndSort\obj\Debug\ArrayAndSort.pdb

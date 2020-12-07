@@ -1,0 +1,7 @@
+1.string.Format的用法
+2.string.Concat的作用
+3.string.Join的用法
+4.字符串对象.Replace作用
+5.字符串对象.Split作用
+6.在一个字符串中，如何表示换行， 单引号，双引号，反斜杠
+7.什么时候用StringBuilder

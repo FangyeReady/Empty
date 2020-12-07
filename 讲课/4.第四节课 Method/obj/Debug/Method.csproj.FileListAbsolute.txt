@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\obj\Debug\Method.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\obj\Debug\Method.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\bin\Debug\Method.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\bin\Debug\Method.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\bin\Debug\Method.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\obj\Debug\Method.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Method\obj\Debug\Method.pdb

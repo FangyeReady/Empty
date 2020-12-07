@@ -1,0 +1,15 @@
+1. 请写出Transform中用于位移， 旋转， 缩放的三个属性
+
+2.Transform的API中，如何获取子物体中的组件， 如何查找子物体
+
+3.如何设置父物体。父子对象间有什么联系？
+
+4.Time.deltaTime是什么？和Time.unscaledDeltaTime有什么区别
+
+5.Camera组件中，Depth Only属性有什么用？
+
+6.常见的灯光有哪些？
+
+7.Vector3是什么类型？
+
+

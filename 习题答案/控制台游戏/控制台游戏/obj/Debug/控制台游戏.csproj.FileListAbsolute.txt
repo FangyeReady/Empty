@@ -1,0 +1,14 @@
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\bin\Debug\控制台游戏.exe.config
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\bin\Debug\控制台游戏.exe
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\bin\Debug\控制台游戏.pdb
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csprojAssemblyReference.cache
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csproj.CoreCompileInputs.cache
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.exe
+D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.pdb
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\bin\Debug\控制台游戏.exe.config
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\bin\Debug\控制台游戏.exe
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\bin\Debug\控制台游戏.pdb
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csprojAssemblyReference.cache
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csproj.CoreCompileInputs.cache
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.exe
+E:\FY-备课\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.pdb

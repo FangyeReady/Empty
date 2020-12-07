@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\bin\Debug\StructAndEnum.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\bin\Debug\StructAndEnum.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\bin\Debug\StructAndEnum.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\obj\Debug\StructAndEnum.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\obj\Debug\StructAndEnum.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\obj\Debug\StructAndEnum.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\StructAndEnum\obj\Debug\StructAndEnum.pdb

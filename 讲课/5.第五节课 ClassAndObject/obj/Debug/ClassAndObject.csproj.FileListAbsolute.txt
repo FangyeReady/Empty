@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\bin\Debug\ClassAndObject.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\bin\Debug\ClassAndObject.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\bin\Debug\ClassAndObject.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\obj\Debug\ClassAndObject.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\obj\Debug\ClassAndObject.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\obj\Debug\ClassAndObject.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\ClassAndObject\obj\Debug\ClassAndObject.pdb

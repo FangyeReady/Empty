@@ -1,0 +1,7 @@
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\bin\Debug\第五课 类的作业.exe.config
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\bin\Debug\第五课 类的作业.exe
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\bin\Debug\第五课 类的作业.pdb
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\obj\Debug\第五课 类的作业.csprojAssemblyReference.cache
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\obj\Debug\第五课 类的作业.csproj.CoreCompileInputs.cache
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\obj\Debug\第五课 类的作业.exe
+D:\文档\TeachingData\习题答案\第五课 类的作业\第五课 类的作业\obj\Debug\第五课 类的作业.pdb

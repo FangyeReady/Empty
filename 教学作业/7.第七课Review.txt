@@ -1,0 +1,24 @@
+1. 简述结构体和类的区别， 至少三点。
+
+
+2.简述const和readonly的区别。
+
+
+3.画图解释以下三个对象在内存中的存储：
+
+bool val1;
+
+class  MyClassA
+{
+
+}
+
+class MyClassB
+{
+	MyClass A;
+	int b;
+	float[] arrayC;
+}
+
+
+

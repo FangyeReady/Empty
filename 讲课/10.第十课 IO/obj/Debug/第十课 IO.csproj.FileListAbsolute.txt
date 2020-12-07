@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\bin\Debug\第十课 IO.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\bin\Debug\第十课 IO.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\bin\Debug\第十课 IO.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\obj\Debug\第十课 IO.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\obj\Debug\第十课 IO.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\obj\Debug\第十课 IO.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO\obj\Debug\第十课 IO.pdb

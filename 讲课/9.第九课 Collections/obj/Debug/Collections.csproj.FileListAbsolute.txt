@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\bin\Debug\Collections.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\bin\Debug\Collections.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\bin\Debug\Collections.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\obj\Debug\Collections.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\Collections\obj\Debug\Collections.pdb

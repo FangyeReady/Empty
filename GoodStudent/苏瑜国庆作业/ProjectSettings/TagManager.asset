@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - goUp
+  - goMid
+  - goDown
+  - enemy
+  - goUp1
+  - goMid1
+  - goDown1
+  - eyeHome
+  - cubeHome
+  - bullet
+  - fireBullet
+  - AttackShape1
+  - AttackShape2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Actor
+    uniqueID: 1902679045
+    locked: 0
+  - name: Map
+    uniqueID: 3515233579
+    locked: 0

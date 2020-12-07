@@ -1,0 +1,12 @@
+1. 请写出Unity的工程目录分别是什么：
+Assets 
+Library Unity
+Logs Unity
+Packages 
+ProjectSettings 
+Temp 
+
+2.在Scene场景中可以通过工具栏快速选择对象的位移，旋转，缩放等工具，请写出快捷键分别是哪些？
+
+
+3.在Unity中，创建新场景和保存场景的快捷键是什么？

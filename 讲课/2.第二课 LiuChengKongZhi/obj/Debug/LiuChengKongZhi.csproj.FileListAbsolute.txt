@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\bin\Debug\LiuChengKongZhi.exe.config
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\bin\Debug\LiuChengKongZhi.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\bin\Debug\LiuChengKongZhi.pdb
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.exe
+E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.pdb

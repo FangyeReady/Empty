@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "控制台游戏", "控制台游戏\控制台游戏.csproj", "{91CE0E1E-8674-4F7C-8CA3-3C64FD9B7D8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91CE0E1E-8674-4F7C-8CA3-3C64FD9B7D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CE0E1E-8674-4F7C-8CA3-3C64FD9B7D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CE0E1E-8674-4F7C-8CA3-3C64FD9B7D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CE0E1E-8674-4F7C-8CA3-3C64FD9B7D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D265C7DB-AF33-476E-AD3B-5CFF5944D53B}
+	EndGlobalSection
+EndGlobal

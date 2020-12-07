@@ -1,0 +1,7 @@
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\bin\Debug\HelloWorld.exe
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.exe
+E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.pdb

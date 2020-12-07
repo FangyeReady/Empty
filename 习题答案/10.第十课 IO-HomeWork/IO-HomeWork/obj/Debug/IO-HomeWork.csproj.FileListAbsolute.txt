@@ -1,0 +1,7 @@
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\bin\Debug\IO-HomeWork.exe.config
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\bin\Debug\IO-HomeWork.exe
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\bin\Debug\IO-HomeWork.pdb
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\obj\Debug\IO-HomeWork.csprojAssemblyReference.cache
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\obj\Debug\IO-HomeWork.csproj.CoreCompileInputs.cache
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\obj\Debug\IO-HomeWork.exe
+E:\Students\评讲\IO-HomeWork\IO-HomeWork\obj\Debug\IO-HomeWork.pdb

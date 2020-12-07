@@ -1,0 +1,7 @@
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\bin\Debug\TestNeiCun.exe.config
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\bin\Debug\TestNeiCun.exe
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\bin\Debug\TestNeiCun.pdb
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\obj\Debug\TestNeiCun.csprojAssemblyReference.cache
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\obj\Debug\TestNeiCun.csproj.CoreCompileInputs.cache
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\obj\Debug\TestNeiCun.exe
+D:\文档\TeachingData\习题答案\TestNeiCun\TestNeiCun\obj\Debug\TestNeiCun.pdb

@@ -1,0 +1,7 @@
+E:\FY-备课\Students\讲课\Study_IO\bin\Debug\Study_IO.exe.config
+E:\FY-备课\Students\讲课\Study_IO\bin\Debug\Study_IO.exe
+E:\FY-备课\Students\讲课\Study_IO\bin\Debug\Study_IO.pdb
+E:\FY-备课\Students\讲课\Study_IO\obj\Debug\Study_IO.csprojAssemblyReference.cache
+E:\FY-备课\Students\讲课\Study_IO\obj\Debug\Study_IO.csproj.CoreCompileInputs.cache
+E:\FY-备课\Students\讲课\Study_IO\obj\Debug\Study_IO.exe
+E:\FY-备课\Students\讲课\Study_IO\obj\Debug\Study_IO.pdb
