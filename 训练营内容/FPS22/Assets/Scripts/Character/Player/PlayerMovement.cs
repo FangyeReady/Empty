@@ -1,11 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnitySampleAssets.CrossPlatformInput;
 /*九城教育*/
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rigid;
     Animator ani;
     PlayerHealth health;
+
+    GameView gameView;
 
     //使用public 可以在检视面板修改属性
     public float speed = 2;
@@ -24,10 +27,20 @@ public class PlayerMovement : MonoBehaviour
         ani = GetComponent<Animator>();
         health = GetComponent<PlayerHealth>();
 
+
+        gameView = GameObject.FindObjectOfType<GameView>();
+
     }
 
     private void FixedUpdate()
     {
+        //如果游戏未开始,则在此处终结代码
+        if (!gameView.IsStartingGame)
+        {
+            return;
+        }
+
+
         //逻辑代码 
         bool isDeadth = health.IsDead();
         if (isDeadth)
@@ -47,10 +60,20 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     public void Move()
     {
+#if !UNITY_EDITOR
         //得到水平增量
         float h = Input.GetAxis("Horizontal");
         //得到垂直增量
         float v = Input.GetAxis("Vertical");
+#else
+        //得到水平增量
+        float h = CrossPlatformInputManager.GetAxis("Horizontal");
+        //得到垂直增量
+        float v = CrossPlatformInputManager.GetAxis("Vertical");
+
+#endif
+
+
         //通过水平和垂直增量,获取坐标系中的移动方向
         Vector3 dir = new Vector3( h, 0, v );
         //通过方向获取移动量
@@ -61,6 +84,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Turing()
     {
+#if !UNITY_EDITOR
         //利用鼠标的位置创建了一个从屏幕向游戏世界发射的射线
         Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
         //创建一个碰撞信息的变量
@@ -81,6 +105,19 @@ public class PlayerMovement : MonoBehaviour
             //旋转角色
             rigid.MoveRotation(rotation);
         }
+#else
+        //得到水平增量
+        float h = CrossPlatformInputManager.GetAxis("Horizontal");
+        //得到垂直增量
+        float v = CrossPlatformInputManager.GetAxis("Vertical");
+
+        //旋转向量
+        Vector3 dir = new Vector3(h, 0f, v);
+        //旋转量
+        Quaternion targetRotation = Quaternion.LookRotation(dir);
+        //旋转
+        rigid.MoveRotation(targetRotation);
+#endif
     }
 
 
@@ -93,10 +130,18 @@ public class PlayerMovement : MonoBehaviour
     public void Animating()
     {
 
+#if UNITY_EDITOR
         //得到水平增量
         float h = Input.GetAxis("Horizontal");
         //得到垂直增量
         float v = Input.GetAxis("Vertical");
+#else
+        //得到水平增量
+        float h = CrossPlatformInputManager.GetAxis("Horizontal");
+        //得到垂直增量
+        float v = CrossPlatformInputManager.GetAxis("Vertical");
+
+#endif
 
         //判断是否在水平或垂直方向移动
         bool isWalking = h != 0 || v != 0;

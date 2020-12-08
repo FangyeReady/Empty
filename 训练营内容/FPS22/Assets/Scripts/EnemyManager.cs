@@ -28,10 +28,17 @@ public class EnemyManager : MonoBehaviour
     {
         //赋值
         gameView = GameObject.FindObjectOfType<GameView>();
+    }
+
+    /// <summary>
+    /// 开始生产敌人
+    /// </summary>
+    public void CreateEnemies()
+    {
         //调用生成
-        StartCoroutine(  SpwanEnemy1() );
-        StartCoroutine(  SpwanEnemy2() );
-        StartCoroutine(  SpwanEnemy3() );
+        StartCoroutine(SpwanEnemy1());
+        StartCoroutine(SpwanEnemy2());
+        StartCoroutine(SpwanEnemy3());
     }
 
 

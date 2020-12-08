@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 /*九城教育*/
 public class PlayerHealth : MonoBehaviour
 {
@@ -68,6 +69,9 @@ public class PlayerHealth : MonoBehaviour
 
         //调用死亡动画
         ani.SetTrigger("Death");
+
+        //调用游戏结束的方法
+        gameView.OnGameEnd();
     }
 
     /// <summary>
@@ -85,5 +89,7 @@ public class PlayerHealth : MonoBehaviour
     public void RestartLevel()
     {
         Debug.Log("重新开始游戏~~~!");
+
+        SceneManager.LoadScene(0);
     }
 }

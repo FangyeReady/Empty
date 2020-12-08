@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnitySampleAssets.CrossPlatformInput;
 /*九城教育*/
 public class PlayerShooting : MonoBehaviour
 {
@@ -39,6 +40,12 @@ public class PlayerShooting : MonoBehaviour
 
     private void Update()
     {
+        //如果游戏未开始,则在此处终结代码
+        if (!gameView.IsStartingGame)
+        {
+            return;
+        }
+
         bool isDeadth = health.IsDead();
         if (isDeadth)
         {
@@ -47,6 +54,7 @@ public class PlayerShooting : MonoBehaviour
 
         timer += Time.deltaTime;
 
+#if !UNITY_EDITOR
         //响应鼠标左键
         if ( Input.GetButton("Fire1") && timer > 0.15f  )
         {
@@ -62,6 +70,18 @@ public class PlayerShooting : MonoBehaviour
             //禁用枪的射线
             line.enabled = false;
         }
+#else
+        bool isMoveX = CrossPlatformInputManager.GetAxis("Horizontal") != 0;
+        bool isMoveY = CrossPlatformInputManager.GetAxis("Vertical") != 0;
+        bool isMove = isMoveX || isMoveY;
+
+        if ( isMove && timer > 0.15f )
+        {
+            Shooting();
+            //Debug.Log("开枪~~~~");
+        }
+
+#endif
 
 
         if (timer >= effectHoldTime)
