@@ -33,6 +33,8 @@ public class StoneSpwaner : MonoBehaviour
     {
         while (true)
         {
+            yield return new WaitUntil(() => { return GameManager.Instance.StartGame; });
+
             Random.InitState((int)DateTime.Now.Ticks);
             //获取一个数组范围内的下标
             int index1 = Random.Range(0, stones.Length - 1);

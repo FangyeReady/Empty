@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Remoting.Messaging;
 using UnityEngine;
 
 //解决二义性
@@ -18,10 +19,14 @@ public class EnemySpwaner : MonoBehaviour
     {
         while (true)
         {
+            yield return new WaitUntil( () => { return GameManager.Instance.StartGame; } );
+
+
+
             //初始化随机种子
             Random.InitState((int)DateTime.Now.Ticks);
             //得到每次生成N个敌机
-            int count = Random.Range(2, 4);
+            int count = Random.Range(4, 6);
             //int preX = 0;
             //循环生成
             for (int i = 0; i < count; i++)
@@ -37,7 +42,7 @@ public class EnemySpwaner : MonoBehaviour
                 //preX = X;
 
                 //生成的时间差
-                float waitTime = Random.Range(1f, 2f);
+                float waitTime = Random.Range(1, 2);
                 yield return new WaitForSeconds(waitTime);
 
                 //生成
@@ -45,7 +50,7 @@ public class EnemySpwaner : MonoBehaviour
             }
 
             //得到每次等待的时间
-            int spwanTime = Random.Range(1, 3);
+            int spwanTime = Random.Range(1, 2);
             //等待N秒
             yield return new WaitForSeconds(spwanTime);    
         }

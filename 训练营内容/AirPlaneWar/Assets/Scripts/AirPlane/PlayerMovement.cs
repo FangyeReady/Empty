@@ -20,6 +20,13 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     private void Update()
     {
+        //如果未开始游戏
+        if (GameManager.Instance.StartGame == false)
+        {
+            return;//不走下面的逻辑
+        }
+
+
         //得到水平变化量
         float h = Input.GetAxis("Horizontal");
         //得到垂直变化量

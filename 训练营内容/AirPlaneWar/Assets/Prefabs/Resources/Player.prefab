@@ -141,6 +141,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   midFire: {fileID: 5783168734887884592}
+  leftFire: {fileID: 4652168190437139500}
+  rightFire: {fileID: 3761571487307378012}
   fireInterval: 0.15
 --- !u!114 &9150298846802982365
 MonoBehaviour:

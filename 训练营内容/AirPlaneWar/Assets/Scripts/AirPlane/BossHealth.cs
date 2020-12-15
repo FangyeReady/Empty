@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using System;
 /*九城教育*/
-
-
 using Random = UnityEngine.Random;
-public class EnemyHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     //生命值
     public float Health = 10f;
@@ -24,12 +22,18 @@ public class EnemyHealth : MonoBehaviour
 
     private void Awake()
     {
-        Destroy(this.gameObject, 20f);
+        //Destroy(this.gameObject, 20f);
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
+        if (Health <= 0)
+        {
+            return;
+        }
+
+
         //碰撞的对象的Tag, 是不是PlayerBullet
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
@@ -40,11 +44,13 @@ public class EnemyHealth : MonoBehaviour
             //销毁子弹
             Destroy(other.gameObject);
         }
+
         //撞上了Player
         if (other.gameObject.CompareTag("Player"))
         {
-            Health = 0;
+           //TODO:????
         }
+
         //当血量小于等于0时
         if (Health <= 0)
         {
@@ -69,21 +75,17 @@ public class EnemyHealth : MonoBehaviour
 
     void CreateItems()
     {
-        //随机
-        Random.InitState((int)DateTime.Now.Ticks);
-
-        //得到随机数
-        int temp = Random.Range(1, 100);
         //生成血包
-        if (temp <= 50)
+        //随机
+        Random.InitState((int)DateTime.Now.Ticks); 
+        for (int i = 0; i < 10; i++)
         {
-            Instantiate(hpPrefab, transform.position, Quaternion.identity);
+            //得到随机数
+            int X = Random.Range(-19, 19);
+            Instantiate(hpPrefab, new Vector3(X, transform.position.y, transform.position.z - 55), Quaternion.identity);
         }
-        else if (temp > 50 && temp <= 100)
-        {
-            Instantiate(superBuffPrefab, transform.position, Quaternion.identity);
-        }
+
+
+        Instantiate(superBuffPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z - 60), Quaternion.identity);   
     }
-
-
 }

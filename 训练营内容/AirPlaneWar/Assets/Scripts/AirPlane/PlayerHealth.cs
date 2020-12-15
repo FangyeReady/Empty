@@ -15,11 +15,35 @@ public class PlayerHealth : MonoBehaviour
     private void Start()
     {
         msr = GetComponent<MeshRenderer>();
+
+        //更新血量
+        UIManager.Instance.UpdateHp(Health);
     }
     
 
     private void OnTriggerEnter(Collider other)
     {
+        //碰到了血包
+        if (other.gameObject.CompareTag("Hp"))
+        {
+            //获取血包数据
+            ItemHp hp = other.gameObject.GetComponent<ItemHp>();
+            float val = hp.addHp;
+            //加血
+            Health = Health + val;
+            //对最高血量做限制
+            if ( Health > GameManager.Instance.MaxHP)
+            {
+                Health = GameManager.Instance.MaxHP;
+            }
+
+            //更新血量
+            UIManager.Instance.UpdateHp(Health);
+           
+            //销毁对象
+            Destroy(other.gameObject);
+        }
+
         //碰撞的对象的Tag, 是不是PlayerBullet
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
@@ -40,6 +64,12 @@ public class PlayerHealth : MonoBehaviour
             //调用受伤效果
             StartCoroutine(OnHurt());
         }
+
+
+        //更新血量
+        UIManager.Instance.UpdateHp(Health);
+
+
         //如果生命值小于0,触发死亡方法
         if (Health <= 0)
         {
@@ -54,12 +84,18 @@ public class PlayerHealth : MonoBehaviour
     {
         Health = 0f;
 
-        //死亡的代码
-        Destroy(this.gameObject);
+        //更新血量
+        UIManager.Instance.UpdateHp(Health);
+
+        //游戏结束
+        GameManager.Instance.OnGameEnd();
 
         //死亡特效
         GameObject dieEff = Instantiate(dieEffectPrefab, transform.position, Quaternion.Euler(-80, 0, 0));
         Destroy(dieEff, 4f);
+
+        //死亡的代码
+        Destroy(this.gameObject);
     }
 
 
@@ -75,4 +111,6 @@ public class PlayerHealth : MonoBehaviour
 
         msr.material.color = Color.clear;
     }
+
+    
 }

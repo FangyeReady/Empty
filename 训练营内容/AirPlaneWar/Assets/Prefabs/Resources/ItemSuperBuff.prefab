@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 1707348789157472373}
   - component: {fileID: 1699321178334292001}
   - component: {fileID: 1608215663030157979}
+  - component: {fileID: 8060253381946299887}
+  - component: {fileID: 1835372470748927605}
   m_Layer: 0
-  m_Name: HardStar
-  m_TagString: Untagged
+  m_Name: ItemSuperBuff
+  m_TagString: SuperBuff
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,3 +105,31 @@ MonoBehaviour:
   endScale: {x: 1.5, y: 1.5, z: 1.5}
   scaleSpeed: 1
   scaleRate: 0.5
+--- !u!114 &8060253381946299887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713347499062152599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21633ab82b37ea45aa77964a5ddc830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdTime: 15
+  SuperTime: 10
+--- !u!64 &1835372470748927605
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713347499062152599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 9d0e73dbf5dfc6e4e800cbe52651ac4d, type: 3}

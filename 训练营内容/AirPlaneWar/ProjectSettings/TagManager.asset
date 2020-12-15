@@ -8,6 +8,9 @@ TagManager:
   - PlayerBullet
   - EnemyBullet
   - Stone
+  - Hp
+  - SuperBuff
+  - BigBoom
   layers:
   - Default
   - TransparentFX

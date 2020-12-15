@@ -156,8 +156,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d90ce1573463c47b6b8e0ab60bcd5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 10
+  Health: 20
+  score: 10
   dieEffectPrefab: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b,
+    type: 3}
+  hpPrefab: {fileID: 7881788600568792055, guid: 6dac7c7b75142e1489eea0d85ba27714,
+    type: 3}
+  superBuffPrefab: {fileID: 1713347499062152599, guid: 5bd77a8f78bef0e4d8a698a2636a4958,
     type: 3}
 --- !u!114 &6057858020802983250
 MonoBehaviour:
