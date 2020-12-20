@@ -5,3 +5,10 @@ E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.csprojAssembl
 E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.exe
 E:\FY-备课\21班\21ClassTeaching\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\bin\Debug\HelloWorld.exe
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\obj\Debug\HelloWorld.exe
+D:\Teaching\Empty\讲课\1.第一节课 HelloWorld\obj\Debug\HelloWorld.pdb

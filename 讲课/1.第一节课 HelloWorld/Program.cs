@@ -115,10 +115,20 @@ namespace HelloWorld
             /// bool isSuccess = int.TryParse("99999", out a5);
             int.TryParse("99999", out a5);
 
-           
+
 
             //Console.WriteLine("a5:" + a5 + "    是否转换成功?" + isSuccess);
 
+
+            Console.Clear();
+
+            char ch1 = 'X';
+            Console.WriteLine((int)ch1);
+
+
+            int int1 = 88;
+            char ch2 = (char)int1;
+            Console.WriteLine(ch2);
 
 
             //等待下一次输入

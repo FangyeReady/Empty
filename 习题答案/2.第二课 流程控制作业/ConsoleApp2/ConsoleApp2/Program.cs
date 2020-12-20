@@ -35,7 +35,6 @@ namespace 教学测试
                 }
                 Console.WriteLine();
             }
-
         }
 
         /// <summary>
@@ -51,7 +50,6 @@ namespace 教学测试
                 }
                 Console.WriteLine();
             }
-
         }
 
         /// <summary>

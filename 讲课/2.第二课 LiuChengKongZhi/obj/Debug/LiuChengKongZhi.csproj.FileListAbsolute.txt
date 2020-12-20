@@ -5,3 +5,10 @@ E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChe
 E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.csproj.CoreCompileInputs.cache
 E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.exe
 E:\FY-备课\21班\21ClassTeaching\讲课内容\LiuChengKongZhi\obj\Debug\LiuChengKongZhi.pdb
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\bin\Debug\LiuChengKongZhi.exe.config
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\bin\Debug\LiuChengKongZhi.exe
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\bin\Debug\LiuChengKongZhi.pdb
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\obj\Debug\LiuChengKongZhi.csprojAssemblyReference.cache
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\obj\Debug\LiuChengKongZhi.csproj.CoreCompileInputs.cache
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\obj\Debug\LiuChengKongZhi.exe
+D:\Teaching\Empty\讲课\2.第二课 LiuChengKongZhi\obj\Debug\LiuChengKongZhi.pdb

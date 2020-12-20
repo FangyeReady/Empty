@@ -5,3 +5,10 @@ D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\�
 D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csproj.CoreCompileInputs.cache
 D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.exe
 D:\文档\TeachingData\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.pdb
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\bin\Debug\控制台游戏.exe.config
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\bin\Debug\控制台游戏.exe
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\bin\Debug\控制台游戏.pdb
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csprojAssemblyReference.cache
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csproj.CoreCompileInputs.cache
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\obj\Debug\控制台游戏.exe
+D:\Teaching\Empty\讲课\控制台游戏\控制台游戏\obj\Debug\控制台游戏.pdb

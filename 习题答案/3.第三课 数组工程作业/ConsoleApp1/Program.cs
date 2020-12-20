@@ -18,7 +18,7 @@ namespace ConsoleApp1
             switch (a)
             {
                 case 0: { }break;
-                case 1: 
+                case 1:
                 case 2: { }break;
                 default:
                     break;
