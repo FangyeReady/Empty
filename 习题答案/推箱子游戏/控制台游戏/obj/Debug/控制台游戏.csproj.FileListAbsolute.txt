@@ -19,3 +19,10 @@ D:\Teaching\Empty\习题答案\控制台游戏\控制台游戏\obj\Debug\控制�
 D:\Teaching\Empty\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.csproj.CoreCompileInputs.cache
 D:\Teaching\Empty\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.exe
 D:\Teaching\Empty\习题答案\控制台游戏\控制台游戏\obj\Debug\控制台游戏.pdb
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\bin\Debug\控制台游戏.exe.config
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\bin\Debug\控制台游戏.exe
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\bin\Debug\控制台游戏.pdb
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\obj\Debug\控制台游戏.csprojAssemblyReference.cache
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\obj\Debug\控制台游戏.csproj.CoreCompileInputs.cache
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\obj\Debug\控制台游戏.exe
+F:\FY-Teaching\Empty\习题答案\推箱子游戏\控制台游戏\obj\Debug\控制台游戏.pdb
