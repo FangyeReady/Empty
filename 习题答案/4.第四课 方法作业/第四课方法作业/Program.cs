@@ -197,6 +197,9 @@ namespace 第四课方法作业
                 Console.Write(array[i] + "  ");
             }
         }
+
+
+
         //=============求奇数偶数的和,并返回======================
         static void GetJiShuAndOuShuArray(int[] dataArray, out int jishuResult, out int oushuResult)
         {

@@ -5,3 +5,10 @@ D:\文档\TeachingData\习题答案\第二课流程控制\ConsoleApp2\ConsoleApp
 D:\文档\TeachingData\习题答案\第二课流程控制\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
 D:\文档\TeachingData\习题答案\第二课流程控制\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 D:\文档\TeachingData\习题答案\第二课流程控制\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+F:\FY-Teaching\Empty\习题答案\2.第二课 流程控制作业\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

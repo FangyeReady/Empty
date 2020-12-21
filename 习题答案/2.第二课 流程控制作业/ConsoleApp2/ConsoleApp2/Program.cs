@@ -10,14 +10,14 @@ namespace 教学测试
     {
         static void Main(string[] args)
         {
-            PrintMap();
-            PrintMap2();
-            PrintMap3();
-            JieCheng(5);
-            GetMaxValue(1, 2, 3);
+            //PrintMap();
+            //PrintMap2();
+            //PrintMap3();
+            //JieCheng(5);
+            //GetMaxValue(1, 2, 3);
             OutPutChengFaBiao();
-            PrintOuShu();
-            SwitchTest(99);
+            //PrintOuShu();
+            //SwitchTest(99);
             Console.ReadKey();
         }
 
