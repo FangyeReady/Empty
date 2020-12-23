@@ -16,12 +16,18 @@ namespace 第四课方法作业
             int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             //DaLuanShuZu(array);
             int jishu, oushu;
-            GetJiShuAndOuShuArray(array, out jishu, out oushu);
+            //GetJiShuAndOuShuArray(array, out jishu, out oushu);
 
             //Console.WriteLine(jishu + "---" + oushu);
             //Add(1 + 2 + 3);
 
-            Console.WriteLine((char)(65));
+            //Console.WriteLine((char)(65));
+
+
+            int[] arr = { 0, 0, 0, 0, 0, 0, 4, 0,0,0 };
+            ZeroValueGoLeft(arr);
+
+            ReplaceArrayValue(arr, 0, 1);
 
             Console.ReadKey();
         }
@@ -115,6 +121,53 @@ namespace 第四课方法作业
 
             return resultAv;
         }
+
+
+        //=============非0元素向左靠齐====================
+        static void ZeroValueGoLeft(int[] array)
+        {
+            int index = array.Length - 1;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == 0 && index > i)
+                {
+                    array[i] = array[index];
+                    array[index] = 0;
+                    index--;
+                    i--;
+                }
+            }
+
+
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i] + "  ");
+            }
+            Console.WriteLine();
+
+        }
+
+        //=============替换数组元素的方法====================
+        static void ReplaceArrayValue(int[] array, int val, int target)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == val)
+                {
+                    array[i] = target;
+                }
+            }
+
+
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i] + "  ");
+            }
+            Console.WriteLine();
+        }
+
         //=============字符串大小写转换=================
         static string GetUpperLowerString(string data)
         {
