@@ -86,7 +86,6 @@ namespace 第四课方法作业
             //{
             //    Console.WriteLine("传入的数组长度有误！");
             //    //return;
-
             //}
 
             if (index >= array.Length)
@@ -123,7 +122,7 @@ namespace 第四课方法作业
         }
 
 
-        //=============非0元素向左靠齐====================
+        //=============非0元素  向左靠齐====================
         static void ZeroValueGoLeft(int[] array)
         {
             int index = array.Length - 1;
@@ -167,6 +166,13 @@ namespace 第四课方法作业
             }
             Console.WriteLine();
         }
+
+
+
+
+
+
+
 
         //=============字符串大小写转换=================
         static string GetUpperLowerString(string data)
@@ -250,8 +256,6 @@ namespace 第四课方法作业
                 Console.Write(array[i] + "  ");
             }
         }
-
-
 
         //=============求奇数偶数的和,并返回======================
         static void GetJiShuAndOuShuArray(int[] dataArray, out int jishuResult, out int oushuResult)
