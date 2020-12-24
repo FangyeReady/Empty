@@ -46,7 +46,6 @@ namespace 第五课_类的作业
             gradeClasses[classCount++] = cl;
         }
 
-
         public void GetClassMemberNum(int classLevel)
         {
             for (int i = 0; i < gradeClasses.Length; i++)
@@ -58,7 +57,6 @@ namespace 第五课_类的作业
                 }
             }
         }
-
 
         public void GetStudentInfo(string name)
         {

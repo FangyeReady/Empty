@@ -38,16 +38,24 @@ namespace 第五课_类的作业
             //如果下标越界了，则应该扩充数组
             if (studentCount >= students.Length )
             {
+                //创建一个更大的数组
                 Student[] newArray = new Student[students.Length + capacity];
+                //遍历原来的数组
                 for (int i = 0; i < students.Length; i++)
                 {
+                    //将数据移动到新的数组中
                     newArray[i] = students[i];
                 }
-
+                //把新的数组地址,赋值给旧的数组变量
                 students = newArray;
             }
 
             students[studentCount++] = stu;
+        }
+
+        public void AddStudent(string name, string sex)
+        { 
+        
         }
 
         public void DelStudent(string name)
@@ -61,6 +69,7 @@ namespace 第五课_类的作业
                     studentCount--;
                 }
             }
+
             Student[] newStudent = new Student[studentCount];
 
             for (int i = 0; i < students.Length; i++)
@@ -87,6 +96,7 @@ namespace 第五课_类的作业
                     if (stu.Name == name)
                     {
                         stu.PrintInfo();
+                      
                         hasFind = true;
                     }
                 }  
