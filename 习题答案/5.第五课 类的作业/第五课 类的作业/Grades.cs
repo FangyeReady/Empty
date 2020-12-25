@@ -13,6 +13,7 @@ namespace 第五课_类的作业
         public Grades(int classNum)
         {
             classNum = Math.Abs(classNum);
+
             gradeClasses = new Classes[classNum];
             classCount = 0;
         }
@@ -43,6 +44,7 @@ namespace 第五课_类的作业
 
                 gradeClasses = newArray;             
             }
+            
             gradeClasses[classCount++] = cl;
         }
 
@@ -84,12 +86,8 @@ namespace 第五课_类的作业
                 boysNum += gradeClasses[i].GetBoysOrGirlsCount("男");
                 girlsNum += gradeClasses[i].GetBoysOrGirlsCount("女");
             }
-
-            Console.WriteLine("全年级共计： 男生" + boysNum + "人" + ",女生" + girlsNum + "人");
-            
+            Console.WriteLine("全年级共计： 男生" + boysNum + "人" + ",女生" + girlsNum + "人");    
         }
-
-
 
     }
 }
