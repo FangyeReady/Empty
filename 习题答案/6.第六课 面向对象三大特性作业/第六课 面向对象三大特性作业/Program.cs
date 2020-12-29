@@ -10,11 +10,15 @@ namespace 第六课_面向对象三大特性作业
     {
         static void Main(string[] args)
         {
+            //第一题
+            //GameManager.BeginGame();
 
-            GameManager.BeginGame();
+            //第二题
+            BookSystem.Subscribe();
+
+           
 
             Console.ReadKey();
-
         }
     }
 }

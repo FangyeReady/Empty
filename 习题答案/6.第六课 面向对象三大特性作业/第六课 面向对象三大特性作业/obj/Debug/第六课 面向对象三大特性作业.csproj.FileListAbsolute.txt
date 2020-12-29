@@ -19,3 +19,10 @@ D:\Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六
 D:\Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.csproj.CoreCompileInputs.cache
 D:\Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.exe
 D:\Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.pdb
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.csprojAssemblyReference.cache
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.csproj.CoreCompileInputs.cache
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.exe
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\obj\Debug\第六课 面向对象三大特性作业.pdb
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\bin\Debug\第六课 面向对象三大特性作业.exe.config
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\bin\Debug\第六课 面向对象三大特性作业.exe
+F:\FY-Teaching\Empty\习题答案\6.第六课 面向对象三大特性作业\第六课 面向对象三大特性作业\bin\Debug\第六课 面向对象三大特性作业.pdb

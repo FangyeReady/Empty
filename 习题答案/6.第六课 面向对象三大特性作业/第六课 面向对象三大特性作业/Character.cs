@@ -47,6 +47,7 @@ namespace 第六课_面向对象三大特性作业
         public override void Attack(Character ch)
         {
             ch.OnHurt(ATK);
+
         }
 
         protected override void Death()
@@ -63,7 +64,7 @@ namespace 第六课_面向对象三大特性作业
             }
 
             _hp -= result;
-            if (_hp < 0)
+            if (_hp <= 0)
             {
                 _hp = 0;
                 Death();
@@ -108,7 +109,6 @@ namespace 第六课_面向对象三大特性作业
 
     class Solider : Character
     {
-
         public Solider(string name, int atk, int def, int hp) : base(name, atk, def, hp)
         {
 
