@@ -1,0 +1,7 @@
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\bin\Debug\8.第八课数组类和String类.exe.config
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\bin\Debug\8.第八课数组类和String类.exe
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\bin\Debug\8.第八课数组类和String类.pdb
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\obj\Debug\8.第八课数组类和String类.csprojAssemblyReference.cache
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\obj\Debug\8.第八课数组类和String类.csproj.CoreCompileInputs.cache
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\obj\Debug\8.第八课数组类和String类.exe
+D:\Teaching\Empty\习题答案\第八课数组类和String类\8.第八课数组类和String类\obj\Debug\8.第八课数组类和String类.pdb
