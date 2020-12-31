@@ -29,7 +29,7 @@ namespace 第七课_结构体和枚举的作业
         }
 
 
-        public void PickEquipMent(Equipment equip)
+        public void PickEquipment(Equipment equip)
         {
             bool isContain = false;
             for (int i = 0; i < equipList.Count; i++)

@@ -18,6 +18,8 @@ namespace 第七课_结构体和枚举的作业
 
             role.AttackEnemy(role1);
 
+            role1.AttackEnemy(role);
+
 
             Console.ReadKey();
         }
