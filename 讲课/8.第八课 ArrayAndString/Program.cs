@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ArrayAndString
@@ -11,6 +13,10 @@ namespace ArrayAndString
 
         static void Main(string[] args)
         {
+            StudyArray sa = new StudyArray();
+            sa.Study();
+
+            Console.Clear();
             //String类 初始化
             string str = "saddasdasd";
             string str2 = str;
@@ -38,8 +44,8 @@ namespace ArrayAndString
 
             //string.IsNullOrWhiteSpace(string  str);
             //检测字符串是否为空串或null
-            bool isNullOrEmpty = string.IsNullOrWhiteSpace(string.Empty);
-
+            bool isNullOrEmpty = string.IsNullOrWhiteSpace("     ");
+            Console.WriteLine("是否为空格： " + isNullOrEmpty);//TRUE
             //string.Concat(字符串1, 字符串2, 字符串3,....); 参数是可变参数,拼接多个字符串
             string str11 = string.Concat(str8, str9, "???", "AAA");
             string str12 = str8 + str9;
@@ -56,10 +62,10 @@ namespace ArrayAndString
 
             //string.Join(string  分隔字符串,  params string[] str); 拼接多个字符串并用指定字符串分割
             string str14 = string.Join(",", str8, str9, str13, "AAA");
-            //Console.WriteLine(str14);
+            Console.WriteLine("join:====>    " + str14);
 
             string str15 = string.Join("===九城===", str8, str9, str13, "AAA");
-            //Console.WriteLine(str15);
+            Console.WriteLine("join:====>    " + str15);
             
             string str16 = str14 + "," + str15;
 
@@ -73,22 +79,22 @@ namespace ArrayAndString
             //判断字符串是否以???开头或结尾
             if (str18.StartsWith("XXX"))
             {
-                //Console.WriteLine("字符串str18以XXX开头");
+                Console.WriteLine("字符串str18以XXX开头");
             }
             bool isEndsWith = str18.EndsWith("XXX");
             if (!isEndsWith)
             {
-                //Console.WriteLine("字符串str18不以XXX结尾");
+                Console.WriteLine("字符串str18不以XXX结尾");
             }
 
 
             //Substring截取
             string str19 = "ABCD1234567EFG";
             string str20 = str19.Substring(5);//从下标处开始截取字符串到字符串结尾
-            //Console.WriteLine(str20);
+            Console.WriteLine("截取： " + str20);
 
             string str21 = str19.Substring(0, 2);
-            //Console.WriteLine(str21);
+            Console.WriteLine("截取： " + str21);
 
 
             //Replace替换
@@ -128,19 +134,19 @@ namespace ArrayAndString
 
             //D:表示十进制, 只能传整数
             string str28 = string.Format("D:   猪肉价:{0:D}, 羊肉价:{1:D}", -20, 30);
-            //Console.WriteLine(str28);
+            Console.WriteLine(str28);
 
             //E:表示科学计数算法
             string str29 = string.Format("E:  猪肉价:{0:E}, 羊肉价:{1:E}", 20, 30);
-            //Console.WriteLine(str29);
+            Console.WriteLine(str29);
 
             //G:常规,G和G2是同一个精度, 2以后精度依次递增
-            string str30 = string.Format("G:  猪肉价:{0:G4}, 羊肉价:{1:G}", 20.12345, 30);
-            //Console.WriteLine(str30);
+            string str30 = string.Format("G:  猪肉价:{0:G5}, 羊肉价:{1:G}", 20.12345, 30);
+            Console.WriteLine(str30);
 
 
-            //N:用分号隔开的数字: N表示默认留两位小数, N1表示默认留一位小数, 以此类推~~~~~
-            string str31 = string.Format("N:  猪肉价:{0:N1}, 羊肉价:{1:N2}", 1000000.123, 3000);
+            //N:用分号隔开的数字: N表示默认留两位小数, N1表示默认留一位小数, 以此类推~~~~~N和N2一样
+            string str31 = string.Format("N:  猪肉价:{0:N1}, 羊肉价:{1:N3}", 1000000.123, 3000);
             //Console.WriteLine(str31);
 
             //X:十六进制
@@ -157,7 +163,7 @@ namespace ArrayAndString
 
 
 
-            Console.Clear();
+            //Console.Clear();
 
             //对时间的格式化
             //while (true)
@@ -181,11 +187,35 @@ namespace ArrayAndString
             StringBuilder sb = new StringBuilder();
             sb.Append("ABC");
             //sb.Clear();
+            sb.Append("XXX");
+
+            sb.AppendFormat("追加格式化的一行 ： {0:yyyy/MM/dd  H:mm:ss}", DateTime.Now);
+
+            sb.Replace('A', 'Q');
+
+            sb.Remove(1, 2);
             sb.AppendLine("DEF");
             sb.Append("ABC");
 
-
             Console.WriteLine(sb.ToString());
+
+
+
+            //Console.Clear();
+
+
+            Console.WriteLine(string.Format("{0:yyyy/MM/dd  H:mm:ss}", DateTime.Now));
+
+            DateTimeFormatInfo dateInfo = new DateTimeFormatInfo();
+            
+            for (int i = 0; i < dateInfo.MonthNames.Length; i++)
+            {
+                Console.WriteLine(dateInfo.MonthNames[i]);
+            }
+
+
+
+            Regex regex = new Regex("");
 
             Console.ReadKey();
         }

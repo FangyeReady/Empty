@@ -5,3 +5,10 @@ E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndString\obj\Debug\ArrayAn
 E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndString\obj\Debug\ArrayAndString.csproj.CoreCompileInputs.cache
 E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndString\obj\Debug\ArrayAndString.exe
 E:\FY-备课\21班\21ClassTeaching\讲课内容\ArrayAndString\obj\Debug\ArrayAndString.pdb
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\bin\Debug\ArrayAndString.exe.config
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\bin\Debug\ArrayAndString.exe
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\bin\Debug\ArrayAndString.pdb
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\obj\Debug\ArrayAndString.csprojAssemblyReference.cache
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\obj\Debug\ArrayAndString.csproj.CoreCompileInputs.cache
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\obj\Debug\ArrayAndString.exe
+D:\Teaching\Empty\讲课\8.第八课 ArrayAndString\obj\Debug\ArrayAndString.pdb

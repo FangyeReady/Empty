@@ -37,18 +37,19 @@ namespace ArrayAndString
             array.SetValue(99, 0);
             //取得下标索引处的值
             int data = (int)array.GetValue(0);
-            //Console.WriteLine(data);
-
+            Console.WriteLine(data + "   用下标访问 ： " + array[0]);
+            
             int[] arr2 = new int[3];
             //从目标索引处开始接收源数组的内容, 0代表从第0位开始
             array.CopyTo(arr2, 0);
+            bool isEquale = Object.ReferenceEquals(array, arr2);
+            Console.WriteLine("拷贝：" + isEquale);
 
             //
             int[] arr3 = arr2;
 
-            bool isEquale = Object.ReferenceEquals(arr3, arr2);
-            //Console.WriteLine(isEquale);
-
+            isEquale = Object.ReferenceEquals(arr3, arr2);
+            Console.WriteLine("赋值：" + isEquale);
 
             //ToString返回当前对象的类型的字符串
             //Console.WriteLine(arr3.ToString());
@@ -64,10 +65,9 @@ namespace ArrayAndString
             arr4[0] = 1;
 
             //PrintArray(arr4);
-
             isEquale = Object.ReferenceEquals(arr3, arr4);
-            //Console.WriteLine(isEquale);
-
+            Console.WriteLine("克隆：" + isEquale);
+           
 
             //克隆一个引用类型的数组
             MyClass[] arr5 = new MyClass[2];
@@ -92,6 +92,8 @@ namespace ArrayAndString
             PrintArray(arr7);
 
 
+           
+
             //Find, 根据条件查找
             var mc1 = Array.Find(arr5, (item) => { return item.a == 100; });
             if (mc1 != null)
@@ -109,7 +111,7 @@ namespace ArrayAndString
             int[] arr8 = new int[arr7.Length];
             Array.Copy(arr7, arr8, 5);
             PrintArray(arr8);
-
+            //Console.ReadKey();
         }
 
     }
