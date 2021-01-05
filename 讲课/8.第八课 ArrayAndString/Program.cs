@@ -189,7 +189,7 @@ namespace ArrayAndString
             //sb.Clear();
             sb.Append("XXX");
 
-            sb.AppendFormat("追加格式化的一行 ： {0:yyyy/MM/dd  H:mm:ss}", DateTime.Now);
+            sb.AppendFormat("追加格式化的一行 ： {0:yyyy/MM/dd  H:mm:ss}, {1}", DateTime.Now, "测试");
 
             sb.Replace('A', 'Q');
 
