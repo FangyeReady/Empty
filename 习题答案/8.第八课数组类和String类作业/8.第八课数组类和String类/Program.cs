@@ -33,6 +33,7 @@ namespace 第八课数组类和String类作业
         static bool IsHuiWen(string str)
         {
             char[] charArray = str.ToCharArray();
+
             for (int i = 0; i < charArray.Length / 2; i++)
             {
                 if (charArray[i] != charArray[charArray.Length - i - 1])
@@ -40,6 +41,7 @@ namespace 第八课数组类和String类作业
                     return false;
                 }
             }
+
             return true;
         }
 
@@ -85,10 +87,6 @@ namespace 第八课数组类和String类作业
 
 
             Console.WriteLine("出现字符最多的字符是：" + maxChar + " 一共出现了 " + maxCount + "次");
-             
-           
-
-
         }
 
         /// <summary>
