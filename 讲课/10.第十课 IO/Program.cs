@@ -97,6 +97,7 @@ namespace 第十课_IO
             string curPath = Directory.GetCurrentDirectory();
             Console.WriteLine("当前路径:" + curPath);
 
+
             //===============================Path路径===============================
             filePath = @"E:\FY-备课\21班\21ClassTeaching\讲课内容\第十课 IO";
             fileName = "IOTest_Create.txt";
