@@ -12,11 +12,11 @@ namespace 流读取写入其它文件
     {
         static void Main(string[] args)
         {
-            string filePath = "";
-            string fileName = "视频.wav";
+            string filePath = @"F:\";
+            string fileName = "data.flv";
             string path = Path.Combine(filePath, fileName);
 
-            byte[] data = new byte[1024 * 1024 * 100];
+            byte[] data = new byte[1024 * 1024 * 71];
 
             using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read))
             {
@@ -27,20 +27,28 @@ namespace 流读取写入其它文件
                 
                 while (true)
                 {
-                    tempData.CopyTo(data, fs.Position);
+                    if (readCount > 0 )
+                    {
+                        tempData.CopyTo(data, fs.Position - 256);
+                    }
+                    
                     readCount = fs.Read(tempData, 0, tempData.Length);
+
+
                     if (readCount <= 0)
                     {
                         break;
                     }
-                    Thread.Sleep(10);
+
+                    Thread.Sleep(1);
                 }
             }
 
+            Console.WriteLine("按任意键继续!");
             Console.ReadKey();
 
-            path = Path.Combine(filePath, "new视频");
-            using (FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Write))
+            path = Path.Combine(filePath, "new视频.flv");
+            using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
             {
                 int index = 0;
                 while (index < data.Length)
@@ -50,7 +58,7 @@ namespace 流读取写入其它文件
             }
 
 
-
+            Console.WriteLine("写入结束!");
             Console.ReadKey();
         }
     }

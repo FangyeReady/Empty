@@ -1,0 +1,7 @@
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\bin\Debug\流读取写入其它文件.exe.config
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\bin\Debug\流读取写入其它文件.exe
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\bin\Debug\流读取写入其它文件.pdb
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\obj\Debug\流读取写入其它文件.csprojAssemblyReference.cache
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\obj\Debug\流读取写入其它文件.csproj.CoreCompileInputs.cache
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\obj\Debug\流读取写入其它文件.exe
+F:\FY-Teaching\Empty\讲课\流读取写入其它文件\流读取写入其它文件\obj\Debug\流读取写入其它文件.pdb
