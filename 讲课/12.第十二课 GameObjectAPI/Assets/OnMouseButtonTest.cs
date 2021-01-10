@@ -54,25 +54,25 @@ public class OnMouseButtonTest : MonoBehaviour
     }
     private void OnMouseUp()//当鼠标抬起 
     {
-        //Debug.Log("当鼠标抬起");
+        Debug.Log("当鼠标抬起");
 
     }
     private void OnMouseUpAsButton()//当鼠标在同一个物体按下后抬起  
     {
-        //Debug.Log("当鼠标在同一个物体按下后抬起");
+        Debug.Log("当鼠标在同一个物体按下后抬起");
     }
     private void OnMouseEnter()//当鼠标进入
     {
-        //Debug.Log("当鼠标进入");
+        Debug.Log("当鼠标进入");
     }
 
     private void OnMouseOver()//当鼠标停留
     {
-        //Debug.Log("当鼠标停留");
+        Debug.Log("当鼠标停留");
     }
     private void OnMouseExit()//当鼠标退出
     {
-        //Debug.Log("当鼠标退出");
+        Debug.Log("当鼠标退出");
     }
     private void OnMouseDrag()//当鼠标拖拽
     {

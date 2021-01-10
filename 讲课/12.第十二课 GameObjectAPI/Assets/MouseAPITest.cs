@@ -46,6 +46,19 @@ public class MouseAPITest : MonoBehaviour
         float v = Input.GetAxis("Vertical");
 
 
-        Debug.Log("水平:" + h + "   竖直:" + v);
+        //Debug.Log("水平:" + h + "   竖直:" + v);
+
+        //Debug.Log("滑轮:" + Input.GetAxis("Mouse ScrollWheel"));
+
+        // if (Input.GetButtonDown("left shift"))
+        // {
+        //       Debug.Log("按下了？？left shift");
+        // }
+
+          if (Input.GetKeyDown("left shift"))
+        {
+              Debug.Log("按下了===>left shift");
+        }
+      
     }
 }
