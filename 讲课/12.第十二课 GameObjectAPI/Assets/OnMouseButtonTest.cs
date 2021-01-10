@@ -10,16 +10,20 @@ public class OnMouseButtonTest : MonoBehaviour
 
     Vector3 prePos;
 
+    float deepth;
+
+    Vector3 offset = Vector3.zero;
+
     private void Update()
     {
         if (isDrag)
         {
-            Vector3 curScreenPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z);
+            Vector3 curScreenPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, deepth);
             Vector3 curWorldPos = Camera.main.ScreenToWorldPoint(curScreenPos);
 
-            transform.position = curWorldPos;
+            transform.position = curWorldPos + offset;
 
-            print(curWorldPos + "----" + curScreenPos);
+            //print(curWorldPos + "----" + curScreenPos);
         }
 
 
@@ -35,6 +39,18 @@ public class OnMouseButtonTest : MonoBehaviour
         //Debug.Log("当鼠标按下");
 
         prePos = transform.position;
+
+        Vector3 worldToScreen =  Camera.main.WorldToScreenPoint(transform.position);
+
+        deepth = worldToScreen.z;
+
+
+        Vector3 mouseInWorld = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, deepth));
+
+        offset =  transform.position - mouseInWorld;
+       
+        Debug.Log("offset:" + offset);
+
     }
     private void OnMouseUp()//当鼠标抬起 
     {
@@ -65,8 +81,8 @@ public class OnMouseButtonTest : MonoBehaviour
 
 
         isDrag = true;
-        var mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.x, 0.5f);
-        var pos = Camera.main.ScreenToWorldPoint(mousePos);
+        //var mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.x, 0.5f);
+        //var pos = Camera.main.ScreenToWorldPoint(mousePos);
 
         //print(pos + "----" + Input.mousePosition);
         
