@@ -1,0 +1,38 @@
+第一题. 判断题
+1.对
+2.错
+3.错
+4.错
+5.对
+6.对
+7.错
+8.对
+9.错
+10.对
+
+第二题.填空题
+1. ref, out
+2. Length, Count
+3.public, private, protected, internal
+4.值，引用，new
+5.装箱， 拆箱
+6.OnCollisionEnter, OnCollisionStay, OnCollisionExit
+7.PlayerPrefs .SetInt ()     ,  PlayerPrefs .GetInt()
+8.const, readonly
+9.Random,  Random.Range(min, max)
+10.Quaternion
+
+第三题.选择题
+1.D
+2.D
+3.B
+4.C
+5.D
+6.B
+7.C
+8.C
+9.B
+10.D
+
+
+
