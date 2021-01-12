@@ -12,10 +12,10 @@ namespace 教学测试
         {
             //PrintMap();
             //PrintMap2();
-            //PrintMap3();
+            PrintMap3();
             //JieCheng(5);
             //GetMaxValue(1, 2, 3);
-            OutPutChengFaBiao();
+            //OutPutChengFaBiao();
             //PrintOuShu();
             //SwitchTest(99);
             Console.ReadKey();
@@ -61,13 +61,22 @@ namespace 教学测试
             {
                 for (int j = 0; j < 6; j++)
                 {
-                    if (i > 0 && i < 5 && j > 0 && j < 5)
+                    //if (i > 0 && i < 5 && j > 0 && j < 5)
+                    //{
+                    //    Console.Write('@');
+                    //}
+                    //else
+                    //{
+                    //    Console.Write('A');
+                    //}
+
+                    if (i == 0 || i == 5 || j == 0 || j == 5)
                     {
-                        Console.Write('@');
+                        Console.Write('A');
                     }
                     else
                     {
-                        Console.Write('A');
+                        Console.Write(' ');
                     }
                 }
                 Console.WriteLine();
