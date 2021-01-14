@@ -41,6 +41,11 @@ public class MouseAPITest : MonoBehaviour
             Debug.Log("按下了Fire1");
         }
 
+          if (Input.GetButton("MyFire"))
+        {
+            Debug.Log("按下了left shift");
+        }
+
 
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
