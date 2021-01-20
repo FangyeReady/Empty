@@ -61,7 +61,7 @@ public class PropertiesTest : MonoBehaviour
         Debug.Log("是否在休眠:  " + rid.IsSleeping());
         if (rid.IsSleeping())
         {
-            rid.WakeUp();
+            rid.WakeUp();//唤醒刚体
         }
 
         //添加力
