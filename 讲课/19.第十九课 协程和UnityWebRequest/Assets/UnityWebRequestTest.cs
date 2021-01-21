@@ -166,7 +166,7 @@ public class UnityWebRequestTest : MonoBehaviour
             Texture2D tex = DownloadHandlerTexture.GetContent(request);
 
 
-            string path = Path.Combine(Application.streamingAssetsPath, "logo.png");
+            string path = Path.Combine(Application.dataPath, "logo.png");
             using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {
                 //将下载的图片转化为PNG格式
